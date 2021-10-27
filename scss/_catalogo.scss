@@ -1,0 +1,128 @@
+.contenedor-catalogo{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-catalogo-1{
+    position: relative;
+    height: 100%;
+    width:100%;
+    left: 0;
+    background: url(../imagenes/silla-de-escritorio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: blur(2px);
+    transition: all 0.5s;
+    &:hover{
+        filter: none;
+    }
+}
+.contenedor-texto-catalogo{
+    height: auto;
+    width: 20rem;
+    position: absolute;
+    z-index: 5;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    p{
+        font-size: 2rem;
+        padding: 12px;
+        border: 2px solid #fff;
+        border-radius: 15% 15%;
+    }
+}
+.div-catalogo-2{
+    position: relative;
+    height: 100%;
+    width:100%;
+    background: url(../imagenes/silla-gamer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: blur(2px);
+    transition: all 0.5s;
+    &:hover{
+        filter: none;
+    }
+}
+.contenedor-texto-catalogo-2{
+    height: auto;
+    width: 20rem;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    p{
+        font-size: 2rem;
+        padding: 12px;
+        border: 2px solid #fff;
+    }
+}
+.div-catalogo-3{
+    position: relative;
+    height: 100%;
+    width:100%;
+    background: url(../imagenes/escritorio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: blur(2px);
+    right: 0;
+    transition: all 0.5s;
+    &:hover{
+        filter: none;
+    }
+}
+.contenedor-texto-catalogo-3{
+    position: absolute;
+    z-index: 5;
+    right: 5%;
+    height: auto;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    p{
+        font-size: 2rem;
+        padding: 12px;
+        border: 2px solid #fff;
+        border-radius: 15% 15%;
+    }
+}
+.img-1{
+    height: 25rem;
+    width: 450px;
+    border-right: 2px solid #00986f;
+    border-bottom: 2px solid #00986f ;
+    border-left: 2px solid #00986f;
+    filter: none;
+}
+.img-2{
+    height: 25rem;
+    width: 450px;
+    border-right: 2px solid #00986f;
+    border-bottom: 2px solid #00986f ;
+}
+.img-3{
+    height: 25rem ;
+    width: 450px;
+    border-right: 2px solid #00986f;
+    border-bottom: 2px solid #00986f ;
+}

@@ -1,0 +1,75 @@
+@import "index";
+@import "catalogo";
+@import "descuentos";
+@import "soporte";
+@import "mediaq";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width:768px){
+    .img-silla-gamer{
+        position: relative;
+    }
+    .img-escritorio{
+        position: static;
+        margin-top: 2rem;
+    }
+    .boton-siguiente-producto{
+        margin-top: 0;
+    }
+    .boton-siguiente-producto-1{
+        margin-top: 10rem;
+        margin-left: 2rem;
+        position: relative;
+    }
+    .boton-siguiente-producto-2{
+        position: relative;
+    }
+}
+/* aca empieza los bucles, each, etc */
+$listadecolores: blue, indigo, purple, yellow, pink, white;
+$fuenteprincipal: 20px;
+$producto: silla-gamer, silla-de-escritorio, escritorio;
+@each $color in $listadecolores {
+    .#{$color}{
+        background-color: $color;
+        color: $color;
+    }
+}
+div{
+    h2{
+        @if $producto == silla-gamer{
+            color: indigo;
+            font-size: $fuenteprincipal;
+        }
+        @else if $producto == silla-de-escritorio{
+            color: yellow;
+            font-size: $fuenteprincipal*2;
+        }
+        @else if $producto == escritorio{
+            color: pink;
+            font-size: $fuenteprincipal*2;
+        }
+        @else{
+            color: white;
+            font-size: $fuenteprincipal*2;
+        }
+    }
+}
+@for $i from 2 to 6 {
+    .bucle#{$i} { 
+        height: 10em/$i;
+        width: 2em * $i;
+    }
+}
+$mapa1:(blue, red);
+$mapa2:(yellow,purple);
+$mapa3: join($mapa1, $mapa2 );
+.mapa{
+    color:$mapa3;
+}

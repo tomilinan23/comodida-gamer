@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/prueba.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="computadora, silla, gamer, escritorio, silla gamer, silla de escritorio,"><!-- keywords -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>comodidad gamer los mejores precios</title>
+</head>
+<body>
+    <header>
+        <div class="menuPrincipal">
+            <nav>
+                <img src="../imagenes/cg-logo.png" alt="logo" class="logo">
+                <img src="../imagenes/menu.png" alt="menu" class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="catalogo.html">Catalogo</a></li>
+                    <li><a href="descuentos.html">Descuentos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                </ul>
+                <button type="button" class="boton-1" onclick="togglebtn()" id="btn"><span></span></button>
+            </nav>
+            <div class="contenedorLampara">
+                <img src="../imagenes/light.png" alt="luz" class="luz" id="luz">
+            </div>
+            <div class="contenedorTexto">
+                <h1>DESCUENTOS</h1>
+                <p>Los mejores descuentos para las mejores sillas y escritorios de Argentina</p>
+                <a href="">Ir a nosotros</a>
+            </div>
+        </div>    
+    </header>
+    <section class="contenedor-section-descuentos">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../imagenes/sillaGamer.png" class="d-block w-20, img-silla-gamer-1" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/escritorio-img.png" class="d-block w-20, img-escritorio-1" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/silla-de-escritorio.png" class="d-block w-20, img-silla-de-escritorio-1"   alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <section class="section-footer-1">
+            <div class="contenedor-contacto">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Email</li>
+                    <li>Whatsapp</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div class="contenedor-logos">
+                <img src="../imagenes/email.png" alt="email" class="email"><br>
+                <img src="../imagenes/wsp.png" alt="whatsapp" class="wsp"><br>
+                <img src="../imagenes/instagram.png" alt="instagram" class="instagram">
+            </div>
+        </section>
+        <section class="contenedor__section-footer-2">
+            <div class="contenedor__section-footer-2__div--grid">
+                <h3>Medios de pago</h3>
+                <ul>
+                    <li>Mastercard</li>
+                    <li>Visa</li>
+                    <li>Bitcoin</li>
+                </ul>
+            </div>
+            <div class="contenedor-logos-2">
+                <img src="../imagenes/mastercard.png" alt="mastercard" class="mastercard"><br>
+                <img src="../imagenes/visa.png" alt="visa" class="visa"><br>
+                <img src="../imagenes/bitcoin.png" alt="bitcoin" class="bitcoin">
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    <script>
+        var btn = document.getElementById ("btn");
+        var luz = document.getElementById ("luz");
+        function togglebtn(){
+            btn.classList.toggle("active");
+            luz.classList.toggle("on");
+        }
+    </script> 
+</body>
+</html>
