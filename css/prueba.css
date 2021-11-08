@@ -1,5 +1,8 @@
+body {
+  max-width: 100%;
+  margin: 0; }
+
 header {
-  height: 100%;
   height: 50rem;
   background-image: url(../imagenes/background-image.jpg);
   background-size: cover;
@@ -499,20 +502,131 @@ h3 {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  body {
+    height: auto;
+    max-width: 1024px;
+    margin: 0; }
+  * {
+    font-size: 50%; }
+  nav ul li {
+    font-size: 15px; }
+  .contenedorTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    height: 19rem;
+    width: 100%; }
+    .contenedorTexto h1 {
+      font-size: 3rem; }
+    .contenedorTexto p {
+      font-size: 12px; }
+    .contenedorTexto a {
+      font-size: 1rem; }
+  .contenedor-sillas-gamer {
+    margin: 0px; }
   .img-silla-gamer {
+    position: relative;
+    margin-left: 0px;
+    height: 20rem; }
+  .img-silla-de-escritorio {
+    height: 20rem;
     position: relative; }
+  .parrafo-sillas-gamer {
+    font-size: 12px; }
+  .parrafo-escritorios {
+    font-size: 12px; }
+  .parrafo-sillas-de-escritorio {
+    margin-left: 0px;
+    font-size: 12px; }
   .img-escritorio {
     position: static;
-    margin-top: 2rem; }
-  .boton-siguiente-producto {
-    margin-top: 0; }
-  .boton-siguiente-producto-1 {
     margin-top: 10rem;
-    margin-left: 2rem;
-    position: relative; }
+    height: 20rem; }
+  .boton-siguiente-producto {
+    font-size: 12px;
+    margin-top: -60px; }
+  .boton-siguiente-producto-1 {
+    position: absolute;
+    margin-top: 120px;
+    font-size: 12px; }
   .boton-siguiente-producto-2 {
-    position: relative; } }
+    font-size: 12px; }
+  .copyrigth p {
+    font-size: 12px; }
+  .footer {
+    background: #0a0a0a;
+    height: 15rem;
+    display: flex;
+    align-items: center; }
+    .footer ul {
+      list-style: none; }
+      .footer ul li {
+        font-size: 6px; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+    max-width: 768px;
+    margin: 0; }
+  * {
+    font-size: 50%; }
+  nav ul li {
+    font-size: 15px; }
+  .contenedorTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    height: 19rem;
+    width: 100%; }
+    .contenedorTexto h1 {
+      font-size: 3rem; }
+    .contenedorTexto p {
+      font-size: 12px; }
+    .contenedorTexto a {
+      font-size: 1rem; }
+  .contenedor-sillas-gamer {
+    margin: 0px; }
+  .img-silla-gamer {
+    position: relative;
+    margin-left: 100px;
+    height: 20rem; }
+  .img-silla-de-escritorio {
+    height: 20rem;
+    position: relative; }
+  .parrafo-sillas-gamer {
+    font-size: 12px; }
+  .parrafo-escritorios {
+    font-size: 12px; }
+  .parrafo-sillas-de-escritorio {
+    font-size: 12px;
+    margin-left: 2rem; }
+  .img-escritorio {
+    position: static;
+    margin-top: 10rem;
+    height: 20rem; }
+  .boton-siguiente-producto {
+    font-size: 12px; }
+  .boton-siguiente-producto-1 {
+    position: relative;
+    font-size: 12px; }
+  .boton-siguiente-producto-2 {
+    font-size: 12px; }
+  .copyrigth p {
+    font-size: 12px; }
+  .footer {
+    background: #0a0a0a;
+    height: 15rem;
+    display: flex;
+    align-items: center; }
+    .footer ul {
+      list-style: none; }
+      .footer ul li {
+        font-size: 6px; } }
 
 /* aca empieza los bucles, each, etc */
 .blue {

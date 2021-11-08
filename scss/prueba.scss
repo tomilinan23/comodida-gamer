@@ -11,9 +11,47 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-@media (max-width:768px){
+@media screen and(max-width:768px){
+    body{
+        height: auto;
+        width: 768px;
+        margin: 0;
+    }
+    *{
+        width: 86%;
+        margin: 0;
+    }
+    .contenedorTexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        height: 19rem;
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .contenedor-sillas-gamer{
+        margin: 0px;
+    }
     .img-silla-gamer{
         position: relative;
+        margin-left: 0px;
+    }
+    .img-silla-de-escritorio{
+        height: 20rem;
+        position: relative;
+    }
+    .parrafo-sillas-de-escritorio{
+        margin-left: 0px;
     }
     .img-escritorio{
         position: static;
@@ -31,6 +69,7 @@
         position: relative;
     }
 }
+
 /* aca empieza los bucles, each, etc */
 $listadecolores: blue, indigo, purple, yellow, pink, white;
 $fuenteprincipal: 20px;
