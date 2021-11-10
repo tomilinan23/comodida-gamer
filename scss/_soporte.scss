@@ -1,11 +1,15 @@
 .soporte-articulo-1{
+    background: #00986f;
     height: 21rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    .form-text{
+        color: #1d2026;
+    }
 }
 .contenedor-section-nosotros{
-    height: 100rem;
+    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,8 +19,25 @@
     width: 100%;
     background: #00986f;
 }
+.mapa-nosotros{
+    height: 70%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
 .contenedor-texto-nosotros{
     height: 100%;
     width: 100%;
     background: #1d2026;
+    h2{
+        text-align: center;
+    }
+    p{
+        color: #fff;
+        text-align: center;
+    }
+    h3{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 20px;
+    }
 }
