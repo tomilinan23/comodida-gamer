@@ -627,6 +627,9 @@ h3 {
     font-size: 50%; }
   nav ul li {
     font-size: 15px; }
+  .luz {
+    left: 63%;
+    top: 3px; }
   .contenedorTexto {
     display: flex;
     justify-content: center;
@@ -728,7 +731,7 @@ h3 {
     bottom: 17px;
     width: 30rem;
     left: 52%;
-    top: 0px; }
+    top: -18px; }
   .contenedorTexto {
     display: flex;
     justify-content: center;

@@ -132,6 +132,10 @@
             }
         }
     }
+    .luz{
+        left: 63%;
+        top: 3px;
+    }
     .contenedorTexto{
         display: flex;
         justify-content: center;
@@ -268,7 +272,7 @@
         bottom: 17px;
         width: 30rem;
         left: 52%;
-        top: 0px;
+        top: -18px;
     }
     .contenedorTexto{
         display: flex;
