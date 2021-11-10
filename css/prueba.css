@@ -626,6 +626,86 @@ h3 {
     .footer ul {
       list-style: none; }
       .footer ul li {
+        font-size: 6px; }
+  /* aca empieza el media de catalogo */
+  .contenedor-texto-catalogo {
+    position: absolute;
+    z-index: 5;
+    top: 500px;
+    left: 40%; }
+  .contenedor-texto-catalogo-3 {
+    position: absolute;
+    z-index: 5;
+    top: 1050px;
+    left: 40%; }
+  .contenedor-catalogo {
+    height: 100rem; } }
+
+@media screen and (max-width: 425px) {
+  body {
+    height: auto;
+    max-width: 425px;
+    margin: 0; }
+  * {
+    font-size: 50%; }
+  nav ul li {
+    font-size: 15px; }
+  .luz {
+    width: 30rem;
+    left: 52%; }
+  .contenedorTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    height: 15rem;
+    width: 95%; }
+    .contenedorTexto h1 {
+      font-size: 3rem; }
+    .contenedorTexto p {
+      font-size: 12px; }
+    .contenedorTexto a {
+      font-size: 1rem; }
+  .contenedor-sillas-gamer {
+    margin: 0px; }
+  .img-silla-gamer {
+    position: relative;
+    margin-left: 100px;
+    height: 20rem; }
+  .img-silla-de-escritorio {
+    height: 20rem;
+    position: relative; }
+  .parrafo-sillas-gamer {
+    font-size: 12px; }
+  .parrafo-escritorios {
+    font-size: 12px; }
+  .parrafo-sillas-de-escritorio {
+    font-size: 12px;
+    margin-left: 2rem; }
+  .img-escritorio {
+    position: static;
+    margin-top: 10rem;
+    height: 20rem; }
+  .boton-siguiente-producto {
+    font-size: 12px; }
+  .boton-siguiente-producto-1 {
+    position: absolute;
+    left: 110%;
+    font-size: 12px; }
+  .boton-siguiente-producto-2 {
+    font-size: 12px;
+    position: relative; }
+  .copyrigth p {
+    font-size: 12px; }
+  .footer {
+    background: #0a0a0a;
+    height: 15rem;
+    display: flex;
+    align-items: center; }
+    .footer ul {
+      list-style: none; }
+      .footer ul li {
         font-size: 6px; } }
 
 /* aca empieza los bucles, each, etc */
