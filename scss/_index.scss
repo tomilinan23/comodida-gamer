@@ -1,6 +1,8 @@
-
+body{
+    max-width: 100%;
+    margin: 0;
+}
 header{ 
-    height: 100%;
     height: 50rem;
     background-image: url(../imagenes/background-image.jpg);
     background-size: cover;
@@ -274,7 +276,36 @@ button span{
     align-items: center;
     ul{
         list-style: none;
+        
     }
+}
+.contenedor-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor-metodos-de-pago{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    ul{
+        li{
+            padding: 1rem;
+        }
+    }
+}
+.section-footer-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer-2{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .email{
     height: 3rem;
@@ -308,51 +339,6 @@ h3{
 .contenedor-metodos-de-pago ul li{
     color: #fff;
 }
-/* aca empieza el grid */
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "section-footer-1 section-footer-2 copyrigth";
-}
-
-.section-footer-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "contenedor-contacto contenedor-logos";
-    grid-area: section-footer-1;
-}
-
-.contenedor-contacto { grid-area: contenedor-contacto; }
-
-.contenedor-logos { grid-area: contenedor-logos; }
-
-.section-footer-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "contenedor-metodos-de-pago contenedor-logos-2";
-    grid-area: section-footer-2;
-}
-
-.contenedor-metodos-de-pago { grid-area: contenedor-metodos-de-pago; }
-
-.contenedor-logos-2 { grid-area: contenedor-logos-2; }
-
-.copyrigth { grid-area: copyrigth; }
-
-/* aca termina el grid */
 .contenedor-contacto ul li{
     padding: 1rem;
     color: #fff;
@@ -360,7 +346,7 @@ h3{
 .copyrigth{
     height:12rem ;
     p{
-        margin-left: 15rem ;
+        margin-left: 3rem ;
         color: #fff;
     }
 }

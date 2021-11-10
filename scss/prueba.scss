@@ -11,24 +11,370 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-@media (max-width:768px){
+@media screen and(max-width:1024px){
+    body{
+        height: auto;
+        max-width: 1024px;
+        margin: 0;
+    }
+    *{
+        font-size: 50%;
+    }
+    nav{
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    .contenedorTexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20%;
+        height: 19rem;
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .contenedor-sillas-gamer{
+        margin: 0px;
+    }
     .img-silla-gamer{
         position: relative;
+        margin-left: 0px;
+        height: 20rem;
+    }
+    .img-silla-de-escritorio{
+        height: 20rem;
+        position: relative;
+    }
+    .parrafo-sillas-gamer{
+        font-size: 12px;
+    }
+    .parrafo-escritorios{
+        font-size: 12px;
+    }
+    .parrafo-sillas-de-escritorio{
+        margin-left: 0px;
+        font-size: 12px;
     }
     .img-escritorio{
         position: static;
-        margin-top: 2rem;
+        margin-top: 10rem;
+        height: 20rem;
     }
     .boton-siguiente-producto{
-        margin-top: 0;
+        font-size: 12px;
+        margin-top: -60px;
     }
     .boton-siguiente-producto-1{
-        margin-top: 10rem;
-        margin-left: 2rem;
-        position: relative;
+        position: absolute;
+        margin-top: 120px;
+        font-size: 12px;
     }
     .boton-siguiente-producto-2{
+        font-size: 12px;
+    }
+    .copyrigth p{
+        font-size: 12px;
+    }
+    .footer{
+        background: #0a0a0a;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        ul{
+            list-style: none;
+            li{
+                font-size: 6px;
+            }
+        }
+    }
+    /* aca empieza nosotros */
+    .mapa-nosotros{
+        width: 75%;
+        height: 60%;
+    }
+    .contenedor-texto-nosotros{
+        p{
+            font-size: 10px;
+        }
+
+    }
+}
+@media screen and(max-width:768px){
+    body{
+        height: auto;
+        max-width: 768px;
+        margin: 0;
+    }
+    *{
+        font-size: 50%;
+    }
+    nav{
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    .contenedorTexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20%;
+        height: 19rem;
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .contenedor-sillas-gamer{
+        margin: 0px;
+    }
+    .img-silla-gamer{
         position: relative;
+        margin-left: 100px;
+        height: 20rem;
+    }
+    .img-silla-de-escritorio{
+        height: 20rem;
+        position: relative;
+    }
+    .parrafo-sillas-gamer{
+        font-size: 12px;
+    }
+    .parrafo-escritorios{
+        font-size: 12px;
+    }
+    .parrafo-sillas-de-escritorio{
+        font-size: 12px;
+        margin-left: 2rem;
+    }
+    .img-escritorio{
+        position: static;
+        margin-top: 10rem;
+        height: 20rem;
+    }
+    .boton-siguiente-producto{
+        font-size: 12px;
+    }
+    .boton-siguiente-producto-1{
+        position: relative;
+        font-size: 12px;
+    }
+    .boton-siguiente-producto-2{
+        font-size: 12px;
+    }
+    .copyrigth p{
+        font-size: 12px;
+    }
+    .footer{
+        background: #0a0a0a;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        ul{
+            list-style: none;
+            li{
+                font-size: 6px;
+            }
+        }
+    }
+    /* aca empieza el media de catalogo */
+    .contenedor-texto-catalogo{
+        position: absolute;
+        z-index: 5;
+        top:500px;
+        left:40%;
+    }
+    .contenedor-texto-catalogo-3{
+        position: absolute;
+        z-index: 5;
+        top:1050px;
+        left:40%;
+    }
+    .contenedor-catalogo{
+        height: 100rem;
+    }
+    /* aca empieza nosotros */
+    .mapa-nosotros{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 50%;
+        height: 40%;
+    }
+    .contenedor-section-nosotros{
+        height: 70rem;
+    }
+    .contenedor-texto-nosotros{
+        h2{
+            margin-top: 5%;
+            text-align: center;
+        }
+        p{  
+            font-size: 12px;
+            color: #fff;
+            width: 80%;
+            margin-left: 15%;
+        }
+        h3{
+            font-size: 20px;
+            text-align: center;
+            margin-top: 140px;
+        }
+    }
+}
+@media screen and(max-width:425px){
+    body{
+        height: auto;
+        max-width: 425px;
+        margin: 0;
+    }
+    *{
+        font-size: 50%;
+    }
+    nav{
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    .luz{
+        width: 30rem;
+        left: 52%;
+    }
+    .contenedorTexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 5%;
+        height: 15rem;
+        width: 95%;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .contenedor-sillas-gamer{
+        margin: 0px;
+    }
+    .img-silla-gamer{
+        position: relative;
+        margin-left: 100px;
+        height: 20rem;
+    }
+    .img-silla-de-escritorio{
+        height: 20rem;
+        position: relative;
+    }
+    .parrafo-sillas-gamer{
+        font-size: 12px;
+    }
+    .parrafo-escritorios{
+        font-size: 12px;
+    }
+    .parrafo-sillas-de-escritorio{
+        font-size: 12px;
+        margin-left: 2rem;
+    }
+    .img-escritorio{
+        position: static;
+        margin-top: 10rem;
+        height: 20rem;
+    }
+    .boton-siguiente-producto{
+        font-size: 12px;
+    }
+    .boton-siguiente-producto-1{
+        position: absolute;
+        left: 110%;
+        font-size: 12px;
+    }
+    .boton-siguiente-producto-2{
+        font-size: 12px;
+        position: relative;
+    }
+    .copyrigth p{
+        font-size: 12px;
+    }
+    .footer{
+        background: #0a0a0a;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        ul{
+            list-style: none;
+            li{
+                font-size: 6px;
+            }
+        }
+    }
+    /* aca empieza descuentos */
+    .contenedor-section-descuentos{
+        height: 60rem;
+    }
+    .contenedor-div-descuentos-1{
+        .img-silla-gamer{
+            height: 10rem;
+        }
+    }
+    .contenedor-div-descuentos-2{
+        .img-silla-de-escritorio{
+            height: 10rem;
+        }
+    }
+    .contenedor-div-descuentos-3{
+        .img-escritorio{
+            height: 10rem;
+        }
+    }
+    /* aca empieza nosotros */
+    .mapa-nosotros{
+        margin-bottom: 50%;
+    }
+    .contenedor-section-nosotros{
+        flex-direction: column;
+        height: 100rem;
+    }
+    .contenedor-texto-nosotros{
+        height: 50rem;
+        h2{
+            text-align: center;
+        }
+        p{
+            font-size: 9px;
+            color: #fff;
+            text-align: center;
+        }
+        h3{
+            margin-top: 0px;
+            font-size: 20px;
+            text-align: center;
+        }
     }
 }
 /* aca empieza los bucles, each, etc */
