@@ -81,7 +81,7 @@ button span {
 
 .luz {
   position: absolute;
-  top: 95%;
+  top: 96%;
   left: 60%;
   transform: translateX(-50%);
   width: 38rem;
@@ -727,7 +727,8 @@ h3 {
     margin-left: 3.3rem;
     bottom: 17px;
     width: 30rem;
-    left: 52%; }
+    left: 52%;
+    top: 0px; }
   .contenedorTexto {
     display: flex;
     justify-content: center;
