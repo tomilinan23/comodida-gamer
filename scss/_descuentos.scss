@@ -1,9 +1,56 @@
 .contenedor-section-descuentos{
-    height: 40rem;
+    background: #00986f;
+    height: 100rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img-silla-de-escritorio-1{
     height: 30rem ;
+}
+.contenedor-div-descuentos-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10rem;
+    .img-silla-gamer{
+        margin-bottom: 5rem;
+        margin-left: 0px;
+        margin-top: 2rem;
+        height: 20rem;
+        position: relative;
+        border: 5px solid black;
+    }
+}
+.contenedor-div-descuentos-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10rem;
+    .img-silla-de-escritorio{
+        margin-bottom: 5rem;
+        margin-left: 0px;
+        margin-top: 2rem;
+        height: 20rem;
+        position: relative;
+        border: 5px solid black;
+    }
+}
+.contenedor-div-descuentos-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    .img-escritorio{
+        margin-bottom: 5rem;
+        margin-left: 0px;
+        margin-top: 2rem;
+        height: 20rem;
+        position: static;
+        border: 5px solid black;
+    }
 }
