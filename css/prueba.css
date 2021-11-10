@@ -257,6 +257,31 @@ button span {
   .footer ul {
     list-style: none; }
 
+.contenedor-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.contenedor-metodos-de-pago {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .contenedor-metodos-de-pago ul li {
+    padding: 1rem; }
+
+.section-footer-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section-footer-2 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .email {
   height: 3rem;
   width: 3rem; }
@@ -288,50 +313,6 @@ h3 {
 .contenedor-metodos-de-pago ul li {
   color: #fff; }
 
-/* aca empieza el grid */
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "section-footer-1 section-footer-2 copyrigth"; }
-
-.section-footer-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "contenedor-contacto contenedor-logos";
-  grid-area: section-footer-1; }
-
-.contenedor-contacto {
-  grid-area: contenedor-contacto; }
-
-.contenedor-logos {
-  grid-area: contenedor-logos; }
-
-.section-footer-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "contenedor-metodos-de-pago contenedor-logos-2";
-  grid-area: section-footer-2; }
-
-.contenedor-metodos-de-pago {
-  grid-area: contenedor-metodos-de-pago; }
-
-.contenedor-logos-2 {
-  grid-area: contenedor-logos-2; }
-
-.copyrigth {
-  grid-area: copyrigth; }
-
-/* aca termina el grid */
 .contenedor-contacto ul li {
   padding: 1rem;
   color: #fff; }
@@ -339,7 +320,7 @@ h3 {
 .copyrigth {
   height: 12rem; }
   .copyrigth p {
-    margin-left: 15rem;
+    margin-left: 3rem;
     color: #fff; }
 
 .contenedor-catalogo {
@@ -462,7 +443,8 @@ h3 {
   border-bottom: 2px solid #00986f; }
 
 .contenedor-section-descuentos {
-  height: 40rem;
+  background: #00986f;
+  height: 100rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -470,14 +452,60 @@ h3 {
 .img-silla-de-escritorio-1 {
   height: 30rem; }
 
+.contenedor-div-descuentos-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10rem; }
+  .contenedor-div-descuentos-1 .img-silla-gamer {
+    margin-bottom: 5rem;
+    margin-left: 0px;
+    margin-top: 2rem;
+    height: 20rem;
+    position: relative;
+    border: 5px solid black; }
+
+.contenedor-div-descuentos-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10rem; }
+  .contenedor-div-descuentos-2 .img-silla-de-escritorio {
+    margin-bottom: 5rem;
+    margin-left: 0px;
+    margin-top: 2rem;
+    height: 20rem;
+    position: relative;
+    border: 5px solid black; }
+
+.contenedor-div-descuentos-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+  .contenedor-div-descuentos-3 .img-escritorio {
+    margin-bottom: 5rem;
+    margin-left: 0px;
+    margin-top: 2rem;
+    height: 20rem;
+    position: static;
+    border: 5px solid black; }
+
 .soporte-articulo-1 {
+  background: #00986f;
   height: 21rem;
   display: flex;
   align-items: center;
   justify-content: center; }
+  .soporte-articulo-1 .form-text {
+    color: #1d2026; }
 
 .contenedor-section-nosotros {
-  height: 100rem;
+  height: 40rem;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -487,10 +515,24 @@ h3 {
   width: 100%;
   background: #00986f; }
 
+.mapa-nosotros {
+  height: 70%;
+  margin-top: 15%;
+  margin-left: 10%; }
+
 .contenedor-texto-nosotros {
   height: 100%;
   width: 100%;
   background: #1d2026; }
+  .contenedor-texto-nosotros h2 {
+    text-align: center; }
+  .contenedor-texto-nosotros p {
+    color: #fff;
+    text-align: center; }
+  .contenedor-texto-nosotros h3 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 20px; }
 
 @media screen and (max-width: 768px) {
   .contenedor-catalogo {
@@ -564,7 +606,13 @@ h3 {
     .footer ul {
       list-style: none; }
       .footer ul li {
-        font-size: 6px; } }
+        font-size: 6px; }
+  /* aca empieza nosotros */
+  .mapa-nosotros {
+    width: 75%;
+    height: 60%; }
+  .contenedor-texto-nosotros p {
+    font-size: 10px; } }
 
 @media screen and (max-width: 768px) {
   body {
@@ -639,7 +687,27 @@ h3 {
     top: 1050px;
     left: 40%; }
   .contenedor-catalogo {
-    height: 100rem; } }
+    height: 100rem; }
+  /* aca empieza nosotros */
+  .mapa-nosotros {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50%;
+    height: 40%; }
+  .contenedor-section-nosotros {
+    height: 70rem; }
+  .contenedor-texto-nosotros h2 {
+    margin-top: 5%;
+    text-align: center; }
+  .contenedor-texto-nosotros p {
+    font-size: 12px;
+    color: #fff;
+    width: 80%;
+    margin-left: 15%; }
+  .contenedor-texto-nosotros h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 140px; } }
 
 @media screen and (max-width: 425px) {
   body {
@@ -700,13 +768,40 @@ h3 {
     font-size: 12px; }
   .footer {
     background: #0a0a0a;
-    height: 15rem;
+    height: 20rem;
     display: flex;
     align-items: center; }
     .footer ul {
       list-style: none; }
       .footer ul li {
-        font-size: 6px; } }
+        font-size: 6px; }
+  /* aca empieza descuentos */
+  .contenedor-section-descuentos {
+    height: 60rem; }
+  .contenedor-div-descuentos-1 .img-silla-gamer {
+    height: 10rem; }
+  .contenedor-div-descuentos-2 .img-silla-de-escritorio {
+    height: 10rem; }
+  .contenedor-div-descuentos-3 .img-escritorio {
+    height: 10rem; }
+  /* aca empieza nosotros */
+  .mapa-nosotros {
+    margin-bottom: 50%; }
+  .contenedor-section-nosotros {
+    flex-direction: column;
+    height: 100rem; }
+  .contenedor-texto-nosotros {
+    height: 50rem; }
+    .contenedor-texto-nosotros h2 {
+      text-align: center; }
+    .contenedor-texto-nosotros p {
+      font-size: 9px;
+      color: #fff;
+      text-align: center; }
+    .contenedor-texto-nosotros h3 {
+      margin-top: 0px;
+      font-size: 20px;
+      text-align: center; } }
 
 /* aca empieza los bucles, each, etc */
 .blue {
