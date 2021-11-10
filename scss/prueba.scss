@@ -27,6 +27,11 @@
             }
         }
     }
+    .luz{
+        position: relative;
+        left: 62%;
+        top: 12px;
+    }
     .contenedorTexto{
         display: flex;
         justify-content: center;
@@ -258,6 +263,9 @@
         }
     }
     .luz{
+        position: relative;
+        margin-left: 3.3rem;
+        bottom: 17px;
         width: 30rem;
         left: 52%;
     }
@@ -339,17 +347,20 @@
     }
     .contenedor-div-descuentos-1{
         .img-silla-gamer{
-            height: 10rem;
+            height: 8rem;
+            border: 2px solid black;        
         }
     }
     .contenedor-div-descuentos-2{
         .img-silla-de-escritorio{
-            height: 10rem;
+            height: 8rem;
+            border: 2px solid black;
         }
     }
     .contenedor-div-descuentos-3{
         .img-escritorio{
-            height: 10rem;
+            height: 8rem;
+            border: 2px solid black;  
         }
     }
     /* aca empieza nosotros */
